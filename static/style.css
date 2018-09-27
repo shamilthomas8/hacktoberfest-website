@@ -1,5 +1,80 @@
+
 *{
     padding: 0px;
     margin: 0px;
     outline: none;
+}
+
+body,html .conatiner {
+    text-align: center;
+    color: aliceblue;
+    background:url(images/1MainBackground.png);
+    min-height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.conatiner{
+    position: fixed;
+}
+.btn {
+    position:relative;
+    widows: 50%;
+}
+
+.btn {
+    size: 1px;
+    position:fixed;
+    top:40%;
+    left:60%;
+    font-size: 2px;
+    padding: 1%;
+    cursor: pointer;
+    border-radius: 1cm;
+
+}
+
+.btn:hover {
+    background-color: rgb(231, 155, 55);
+}
+h3,html {
+    text-align: center;
+    position: fixed;
+    color: white;
+    font-family: fantasy;
+    top: 2%;
+    right:47%;
+}
+
+h1,html {
+    position: fixed;
+    top: 10%;
+    width: 25%;
+    color: rgb(91, 91, 175)
+}
+
+p,html {
+    position: fixed;
+    top:90%;
+    color: rgb(67, 67, 185);
+}
+
+.logo {
+    position: fixed;
+    top: 70%;
+    right:30%;
+}
+.git {
+    position: fixed;
+    font-size: 1cm;
+    top: 79.5%;
+    right:17%;
+    color: rgb(37, 131, 253);
+}
+.twilio {
+    position: fixed;
+    top: 70%;
+    left:86%;
+    color: rgb(37, 131, 253);
+    font-size: 20px;
 }
